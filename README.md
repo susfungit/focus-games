@@ -1,12 +1,9 @@
-# Focus Games
+# Flash Grid Memory — Delta Update
 
-Static, mobile-friendly focus game collection.
+Copy `index.html`, `games/flash-grid-memory.html`, and `prompts/flash-grid-memory.md` into the root of your existing `focus-games` repository, preserving folder paths. `index.html` replaces your current homepage and includes all five games (Odd Marble, Track the Ball, Number Grid, Stroop, Flash Grid). No existing game files need replacing.
 
-- `index.html` is the game selection homepage.
-- `games/odd-marble.html` is the first playable game.
-
-## GitHub Pages
-
-Create a public GitHub repository, upload these files keeping the folder structure, then go to Settings → Pages → Deploy from a branch → `main` → `/ (root)`. Your homepage will be at `https://USERNAME.github.io/REPOSITORY/`.
-
-To add another game, create a new HTML file under `games/` and link it from `index.html`.
+```bash
+git add index.html games/flash-grid-memory.html prompts/flash-grid-memory.md
+git commit -m "Add Flash Grid Memory and homepage card"
+git push
+```
